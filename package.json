@@ -1,0 +1,30 @@
+{
+  "name": "material-ui-advanced-text-field",
+  "version": "1.0.0",
+  "description": "material ui text field with advanced features",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel ./Src/text-field-component.js -o index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshpalyekar/Material-ui-Text-Field.git"
+  },
+  "author": "prathamesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathameshpalyekar/Material-ui-Text-Field/issues"
+  },
+  "homepage": "https://github.com/prathameshpalyekar/Material-ui-Text-Field#readme",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
