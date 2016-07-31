@@ -18,6 +18,10 @@ var _MuiThemeProvider = require("material-ui/styles/MuiThemeProvider");
 
 var _MuiThemeProvider2 = _interopRequireDefault(_MuiThemeProvider);
 
+var _TextField = require("material-ui/TextField");
+
+var _TextField2 = _interopRequireDefault(_TextField);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -44,7 +48,7 @@ var AdvancedTextField = function (_React$Component) {
         _react2.default.createElement(
           "div",
           null,
-          _react2.default.createElement(TextField, { name: "textField", value: "prathamesh", underlineFocusStyle: { borderColor: "blue" }, style: { marginLeft: 19, width: 40 } })
+          _react2.default.createElement(_TextField2.default, { name: "textField", value: "prathamesh", underlineFocusStyle: { borderColor: "blue" }, style: { marginLeft: 19, width: 40 } })
         )
       );
     }
